@@ -1,0 +1,46 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Publish
+publish/
+**/publish/
+
+## Logs
+*.log
+logs/
+
+## EF Core migrations backup
+*.bak
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Secrets / env
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+*.env
+.env
+secrets.json
+
+## Claude Code
+.claude/

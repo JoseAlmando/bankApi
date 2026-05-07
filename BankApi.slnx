@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Bussiness/">
+    <Project Path="BankApi.Infraestructure/BankApi.Infrastructure.csproj" />
+    <Project Path="BankApi.ViewModel/BankApi.Application.csproj" />
+  </Folder>
+  <Folder Name="/Persistence/">
+    <Project Path="BankApi.Domain/BankApi.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="BankApi/BankApi.Api.csproj" />
+  </Folder>
+  <Folder Name="/Utils/">
+    <Project Path="BankApi.Common/BankApi.Common.csproj" />
+  </Folder>
+</Solution>
